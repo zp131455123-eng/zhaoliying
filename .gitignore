@@ -11,6 +11,24 @@ credentials/
 *.swp
 *~
 
+# 一次性脚本（不需要同步）
+gen_excel.py
+gen_excel2.py
+add_client.py
+check.py
+copy-plugins.ps1
+fix-openclaw-plugins.ps1
+
+# 文档模板/搭建记录（不需要同步）
+记忆系统搭建-*.md
+记忆系统文档模板-*.md
+开发原则浓缩版.md
+BOOTSTRAP.md
+
+# EA 临时导出文件
+ea策略/*.csv
+ea策略/*.html
+
 # 系统文件
 .DS_Store
 Thumbs.db
