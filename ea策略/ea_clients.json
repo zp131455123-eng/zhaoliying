@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "updated": "2026-03-11",
+    "total_active": 58000,
+    "total_stopped": 32000,
+    "total": 90000
+  },
+  "clients": [
+    {
+      "id": 1,
+      "name": "雷伟平",
+      "manager": "刘涛",
+      "platform": "tmgm",
+      "account": "50193413",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "114.7u",
+      "transferred": false,
+      "notes": "无系统"
+    },
+    {
+      "id": 2,
+      "name": "朱睿",
+      "manager": "刘涛",
+      "platform": "tmgm",
+      "account": "50193709",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "146u",
+      "transferred": true,
+      "notes": "在跑回撤"
+    },
+    {
+      "id": 3,
+      "name": "徐敏",
+      "manager": "曾涛",
+      "platform": "dlsm",
+      "account": "3004926",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "771rmb",
+      "transferred": false,
+      "notes": "300%亏损 待换"
+    },
+    {
+      "id": 4,
+      "name": "孙明",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "234084",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "746rmb",
+      "transferred": true,
+      "notes": "746对半50%"
+    },
+    {
+      "id": 5,
+      "name": "李超杰",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "24701500",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "176rmb",
+      "transferred": false,
+      "notes": "ebc未跑pamm"
+    },
+    {
+      "id": 6,
+      "name": "小叶",
+      "manager": "公司",
+      "platform": "dlsm",
+      "account": "3004014",
+      "amount": 8000,
+      "status": "停止",
+      "current_balance": "826r",
+      "transferred": true,
+      "notes": "ebc"
+    },
+    {
+      "id": 7,
+      "name": "万诺",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "50177313",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "27u",
+      "transferred": true,
+      "notes": "ebc"
+    },
+    {
+      "id": 8,
+      "name": "曾经，拥有",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "3003957",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "50rmb",
+      "transferred": true,
+      "notes": "ebc 盈利24次再发"
+    },
+    {
+      "id": 9,
+      "name": "张凯嘉",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "50180502",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "181u",
+      "transferred": true,
+      "notes": "待转回"
+    },
+    {
+      "id": 10,
+      "name": "MN医疗",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "50180849",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "150u",
+      "transferred": true,
+      "notes": "ebc"
+    },
+    {
+      "id": 11,
+      "name": "bibiubiu",
+      "manager": "张鹏",
+      "platform": "ebc",
+      "account": "3003957",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "盈利",
+      "transferred": false,
+      "notes": "ebc 盈利24次再发"
+    },
+    {
+      "id": 12,
+      "name": "罗琴",
+      "manager": "刘涛",
+      "platform": "dlsm",
+      "account": "3004062",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "188u",
+      "transferred": true,
+      "notes": "待转回"
+    },
+    {
+      "id": 13,
+      "name": "徐宝龙",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "3004212",
+      "amount": 2000,
+      "status": "停止",
+      "current_balance": "1605rmb",
+      "transferred": true,
+      "notes": "待转回"
+    },
+    {
+      "id": 14,
+      "name": "范宇轩",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "24701049",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "162u",
+      "transferred": true,
+      "notes": "未跑pamm"
+    },
+    {
+      "id": 15,
+      "name": "苏亮",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "24701057",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": null,
+      "transferred": null,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "name": "雷熊",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "24701060",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": null,
+      "transferred": null,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "name": "王欢",
+      "manager": "曾涛",
+      "platform": "dlsm",
+      "account": "24701062",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": null,
+      "transferred": null,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "name": "林锦豪",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "3004208",
+      "amount": 4000,
+      "status": "进行中",
+      "current_balance": "826r",
+      "transferred": true,
+      "notes": "ebc"
+    },
+    {
+      "id": 19,
+      "name": "王泽远",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "50180502",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "181u",
+      "transferred": true,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "name": "梁杰煌",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "50180849",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "150u",
+      "transferred": true,
+      "notes": "ebc"
+    },
+    {
+      "id": 21,
+      "name": "焦伟林",
+      "manager": "张鹏",
+      "platform": "tmgm",
+      "account": "50201215",
+      "amount": 10000,
+      "status": "进行中",
+      "current_balance": "满仓",
+      "transferred": false,
+      "notes": "满仓"
+    },
+    {
+      "id": 22,
+      "name": "谢远然",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "3004062",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "188u",
+      "transferred": true,
+      "notes": "待转回"
+    },
+    {
+      "id": 23,
+      "name": "雷蒙",
+      "manager": "公司",
+      "platform": "tmgm",
+      "account": "50177271",
+      "amount": 4000,
+      "status": "进行中",
+      "current_balance": "1280rmb",
+      "transferred": false,
+      "notes": "待转回 累计亏损"
+    },
+    {
+      "id": 24,
+      "name": "聂平华",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "24702780",
+      "amount": 6000,
+      "status": "进行中",
+      "current_balance": "168u",
+      "transferred": true,
+      "notes": "待出金"
+    },
+    {
+      "id": 25,
+      "name": "华哥（xiong yong）",
+      "manager": "公司",
+      "platform": "tmgm",
+      "account": "50201215",
+      "amount": 10000,
+      "status": "进行中",
+      "current_balance": "满仓 约900u",
+      "transferred": false,
+      "notes": "转到魔"
+    },
+    {
+      "id": 26,
+      "name": "孙成（chenyingying）",
+      "manager": "刘涛",
+      "platform": "dlsm",
+      "account": "24701049",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "162u",
+      "transferred": true,
+      "notes": "未跑pamm"
+    },
+    {
+      "id": 27,
+      "name": "陈泽林",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "3004216",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "无",
+      "transferred": true,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "name": "张金虎",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": "50195421",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "满仓",
+      "transferred": false,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "name": "杨静",
+      "manager": "刘涛",
+      "platform": "dlsm",
+      "account": "50200086",
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": "455rmb",
+      "transferred": true,
+      "notes": "出金10%"
+    },
+    {
+      "id": 30,
+      "name": "杨浩",
+      "manager": "张鹏",
+      "platform": "dlsm",
+      "account": null,
+      "amount": 2000,
+      "status": "进行中",
+      "current_balance": null,
+      "transferred": null,
+      "notes": ""
+    }
+  ],
+  "gui2": [
+    {
+      "name": "李维",
+      "amount": 2000
+    },
+    {
+      "name": "刘学习",
+      "amount": 10000
+    },
+    {
+      "name": "刘学习推荐",
+      "amount": 4000
+    }
+  ],
+  "platform_summary": {
+    "达陌(dlsm)": 36000,
+    "ebc": 12000,
+    "tmgm": 10000
+  }
+}
