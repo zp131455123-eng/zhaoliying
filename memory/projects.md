@@ -1,84 +1,47 @@
 # Projects - 项目状态
+*最后更新: 2026-03-11*
 
-## 当前活跃项目
+---
+
+## ✅ 已完成
 
 ### 记忆系统搭建
+- 三层架构（热/温/冷）✅
+- 向量搜索（DashScope text-embedding-v3）✅
+- GitHub 自动同步（每天凌晨2点）✅
+- 健康检查脚本 / project-sync 脚本 ✅
 
-| 属性 | 值 |
-|------|-----|
-| **状态** | 🚧 进行中 |
-| **路径** | C:\Users\Administrator\Desktop\智能体 |
-| **开始日期** | 2026-03-10 |
-| **技术栈** | OpenClaw, Markdown, Memory Search |
-| **文档** | OpenClaw记忆系统架构.md |
+### EA策略客户管理系统
+- 文件：`ea策略/ea_clients.json` + `ea_manager.py` + `validate.py`
+- 30个客户，进行中58000U，停止32000U，总计90000U
+- 负责人：张鹏(54000) / 公司(22000) / 刘涛(10000) / 曾涛(4000)
+- 平台：达陌36000 / ebc12000 / tmgm10000
+- 操作方式：直接告诉赵丽颖，她更新JSON并导出Excel
+- 注意：杨浩账号原始表无记录，勿乱填
+- 验证：每次修改后跑 `validate.py`，只报缺失不猜测
 
-**当前进度**：
-- ✅ 目录结构创建（memory/logs, archive, research）
-- ✅ MEMORY.md 创建（索引+热记忆）
-- ✅ 今日日志创建（2026-03-10.md）
-- ✅ lessons.md 创建（踩坑教训）
-- ✅ projects.md 创建（本文件）
-- ⏸️ tools-notes.md（待创建）
-- ⏸️ evolution.md（待创建）
-- ⏸️ heartbeat-state.json（待创建）
-- ⏸️ archive-index.md（待创建）
-- ⏸️ USER.md 完善（待补充老板详细信息）
-
-**下一步**：
-1. 完成剩余核心文件创建
-2. 测试 memory_search 语义搜索功能
-3. 配置 Heartbeat 自动巡检
-4. 运行健康检查脚本
+### GitHub 仓库配置
+- 仓库：`git@github.com:zp131455123-eng/zhaoliying.git`（私有）
+- 用户：zp131455123-eng / zp131455123@gmail.com
+- SSH Key：ed25519，已添加到 GitHub
+- 自动同步：任务计划 "ZhaoLiying GitSync"，凌晨2点
 
 ---
 
-## 待启动项目
+## 🔲 待规划
 
-_暂无_
-
----
-
-## 已完结项目（归档）
-
-_暂无_
+### AI视频制作
+- 老板想用 AI 生成视频
+- 具体工具/工作流待确认（数字人/文转视频/全流程？）
+- 下次对话时继续
 
 ---
 
-## 项目模板（新项目时复制）
-
-```markdown
-### 项目名称
-
-| 属性 | 值 |
-|------|-----|
-| **状态** | 🚧 进行中 / ✅ 已完成 / ⏸️ 暂停 / ❌ 已废弃 |
-| **路径** | /path/to/project |
-| **开始日期** | YYYY-MM-DD |
-| **完成日期** | YYYY-MM-DD（如已完成）|
-| **技术栈** | Node.js, Python, etc. |
-| **仓库** | github.com/user/repo |
-| **文档** | README.md 或相关文档路径 |
-
-**当前进度**：
-- [ ] 任务1
-- [ ] 任务2
-
-**下一步**：
-1. xxx
-2. xxx
-```
-
----
-
-## 环境信息
-
-| 环境 | 描述 | 位置 |
-|------|------|------|
-| 工作空间 | 智能体主目录 | C:\Users\Administrator\Desktop\智能体 |
-| 系统 | Windows_NT 10.0.19045 (x64) | - |
-| Node.js | v24.14.0 | - |
-| Shell | PowerShell | - |
-
----
-
-*最后更新: 2026-03-10 22:14*
+## 环境
+| 项目 | 值 |
+|------|---|
+| 工作空间 | `C:\Users\Administrator\Desktop\智能体` |
+| 系统 | Windows 10 x64 |
+| Python | 已安装（openpyxl 可用）|
+| Node.js | v24.14.0 |
+| Shell | PowerShell |
