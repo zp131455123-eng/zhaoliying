@@ -1,0 +1,222 @@
+{
+  "date": "2026-03-12",
+  "count": 31,
+  "items": [
+    {
+      "source": "抖音",
+      "title": "植树节来一场绿色Color Walk",
+      "desc": "",
+      "hot": 12097918
+    },
+    {
+      "source": "抖音",
+      "title": "十四届全国人大四次会议闭幕",
+      "desc": "",
+      "hot": 12012083
+    },
+    {
+      "source": "抖音",
+      "title": "第二部以“法典”命名法律诞生",
+      "desc": "",
+      "hot": 12007870
+    },
+    {
+      "source": "抖音",
+      "title": "全国两会第三场部长通道",
+      "desc": "",
+      "hot": 11618434
+    },
+    {
+      "source": "抖音",
+      "title": "在人民大会堂听军乐团演奏",
+      "desc": "",
+      "hot": 11033019
+    },
+    {
+      "source": "抖音",
+      "title": "老师的职责不该向家长转移",
+      "desc": "",
+      "hot": 10932426
+    },
+    {
+      "source": "抖音",
+      "title": "司法部：立法着力解决内卷式竞争",
+      "desc": "",
+      "hot": 9334715
+    },
+    {
+      "source": "抖音",
+      "title": "“唯流量论”在毁灭影视创作",
+      "desc": "",
+      "hot": 9241000
+    },
+    {
+      "source": "抖音",
+      "title": "大国重器跑出加速度",
+      "desc": "",
+      "hot": 9119791
+    },
+    {
+      "source": "抖音",
+      "title": "代表呼吁给生育女性补贴养老金",
+      "desc": "",
+      "hot": 9119708
+    },
+    {
+      "source": "抖音",
+      "title": "伊朗新任最高领袖发表声明",
+      "desc": "",
+      "hot": 9112719
+    },
+    {
+      "source": "抖音",
+      "title": "用“龙虾”登微信被刷走钱系谣言",
+      "desc": "",
+      "hot": 8955719
+    },
+    {
+      "source": "抖音",
+      "title": "建议扩围职业病目录明确认定标准",
+      "desc": "",
+      "hot": 8800605
+    },
+    {
+      "source": "抖音",
+      "title": "伊朗称无法参加世界杯",
+      "desc": "",
+      "hot": 8781259
+    },
+    {
+      "source": "抖音",
+      "title": "中央和地方预算的决议表决通过",
+      "desc": "",
+      "hot": 8484139
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN: s@: decentralized social networking over static sites",
+      "desc": "http://satproto.org/",
+      "hot": 362,
+      "comments": 162,
+      "url": "http://satproto.org/"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Big Data on the Cheapest MacBook",
+      "desc": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook",
+      "hot": 191,
+      "comments": 158,
+      "url": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Dolphin Progress Release 2603",
+      "desc": "https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/",
+      "hot": 166,
+      "comments": 18,
+      "url": "https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/"
+    },
+    {
+      "source": "HackerNews",
+      "title": "3D-Knitting: The Ultimate Guide",
+      "desc": "https://www.oliver-charles.com/pages/3d-knitting",
+      "hot": 157,
+      "comments": 57,
+      "url": "https://www.oliver-charles.com/pages/3d-knitting"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Avoiding Trigonometry (2013)",
+      "desc": "https://iquilezles.org/articles/noacos/",
+      "hot": 129,
+      "comments": 28,
+      "url": "https://iquilezles.org/articles/noacos/"
+    },
+    {
+      "source": "HackerNews",
+      "title": "US banks' exposure to private credit hits $300B (2025)",
+      "desc": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/",
+      "hot": 85,
+      "comments": 44,
+      "url": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
+      "desc": "https://github.com/obsessiondb/rudel",
+      "hot": 53,
+      "comments": 29,
+      "url": "https://github.com/obsessiondb/rudel"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Suburban school district uses license plate readers to verify student residency",
+      "desc": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/",
+      "hot": 42,
+      "comments": 18,
+      "url": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Malus – Clean Room as a Service",
+      "desc": "https://malus.sh",
+      "hot": 38,
+      "comments": 15,
+      "url": "https://malus.sh"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
+      "desc": "https://github.com/jrswab/axe",
+      "hot": 26,
+      "comments": 16,
+      "url": "https://github.com/jrswab/axe"
+    },
+    {
+      "source": "HackerNews",
+      "title": "The purpose of Continuous Integration is to fail",
+      "desc": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail",
+      "hot": 16,
+      "comments": 20,
+      "url": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
+      "desc": "https://github.com/yuuichieguchi/Calyx",
+      "hot": 14,
+      "comments": 20,
+      "url": "https://github.com/yuuichieguchi/Calyx"
+    },
+    {
+      "source": "HackerNews",
+      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "desc": "https://codespeak.dev/",
+      "hot": 7,
+      "comments": 6,
+      "url": "https://codespeak.dev/"
+    },
+    {
+      "source": "HackerNews",
+      "title": "ATMs didn't kill bank Teller jobs, but the iPhone did",
+      "desc": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
+      "hot": 4,
+      "comments": 0,
+      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller"
+    },
+    {
+      "source": "YouTube/搜索",
+      "title": "【2025年11月熱歌榜】2025流行歌曲 🔥2025不能不聽的100首歌 2025年11月抖音熱門歌曲合集🔥 七月抖音最夯中文神曲推薦🔥Tiny7 - 零距离的思念 王赫野喻言《别让爱凋落》",
+      "desc": "",
+      "hot": 10,
+      "url": "https://youtube.com/watch?v=aOBH8W6oWGQ"
+    },
+    {
+      "source": "YouTube/搜索",
+      "title": "四月熱舞TOP｜Shut Up And Dance / Chicken Banana / 虎牙搖",
+      "desc": "",
+      "hot": 2,
+      "url": "https://youtube.com/watch?v=TDyPbb00-oM"
+    }
+  ]
+}
