@@ -5,17 +5,23 @@
     "link": "https://www.startraderapac.com/scn/live-account/?affid=MTcwOTg2MzA=&ibpRebateCode=MTcwOTg2MzBTVDEwMDAx",
     "note": "",
     "clients": [
-      {"name": "范宇轩", "amount": 2000},
-      {"name": "王泽远", "amount": 2000},
-      {"name": "谢远然", "amount": 2000},
-      {"name": "雷蒙",   "amount": 4000},
-      {"name": "聂平华", "amount": 6000},
-      {"name": "华哥(xiong yong)", "amount": 10000},
-      {"name": "孙成(chenyingying)", "amount": 2000},
-      {"name": "陈泽林", "amount": 2000},
-      {"name": "张金虎", "amount": 2000},
-      {"name": "杨静",   "amount": 2000},
-      {"name": "杨浩",   "amount": 2000}
+      {"name": "范宇轩", "amount": 2000, "agent": "张鹏", "status": "进行中"},
+      {"name": "王泽远", "amount": 2000, "agent": "张鹏", "status": "进行中"},
+      {"name": "谢远然", "amount": 2000, "agent": "张鹏", "status": "进行中"},
+      {"name": "雷蒙",   "amount": 4000, "agent": "公司", "status": "进行中"},
+      {"name": "聂平华", "amount": 6000, "agent": "张鹏", "status": "进行中"},
+      {"name": "华哥(xiong yong)", "amount": 10000, "agent": "公司", "status": "进行中"},
+      {"name": "孙成(chenyingying)", "amount": 2000, "agent": "刘涛", "status": "进行中"},
+      {"name": "陈泽林", "amount": 2000, "agent": "张鹏", "status": "进行中"},
+      {"name": "张金虎", "amount": 2000, "agent": "张鹏", "status": "进行中"},
+      {"name": "杨静",   "amount": 2000, "agent": "刘涛", "status": "进行中"},
+      {"name": "杨浩",   "amount": 2000, "agent": "张鹏", "status": "进行中"},
+      {"name": "徐敏",   "amount": 2000, "agent": "曾涛", "status": "停止"},
+      {"name": "孙明",   "amount": 2000, "agent": "张鹏", "status": "停止"},
+      {"name": "李超杰", "amount": 2000, "agent": "张鹏", "status": "停止"},
+      {"name": "小叶",   "amount": 8000, "agent": "公司", "status": "停止"},
+      {"name": "曾经，拥有", "amount": 2000, "agent": "张鹏", "status": "停止"},
+      {"name": "罗琴",   "amount": 2000, "agent": "刘涛", "status": "停止"}
     ]
   },
   {
@@ -73,7 +79,15 @@
     "link": "https://portal.tmgrowinv.com/register?node=MTQ3OTEz&language=zh-Hans",
     "note": "",
     "clients": [
-      {"name": "焦伟林", "amount": 10000}
+      {"name": "焦伟林",    "amount": 10000, "agent": "张鹏",  "status": "进行中"},
+      {"name": "刘学习",    "amount": 10000, "agent": "刘佳轩","status": "进行中"},
+      {"name": "刘学习推荐","amount": 4000,  "agent": "刘佳轩","status": "进行中"},
+      {"name": "雷伟平",    "amount": 2000,  "agent": "刘涛",  "status": "停止"},
+      {"name": "朱睿",      "amount": 2000,  "agent": "刘涛",  "status": "停止"},
+      {"name": "万诺",      "amount": 2000,  "agent": "张鹏",  "status": "停止"},
+      {"name": "张凯嘉",    "amount": 2000,  "agent": "张鹏",  "status": "停止"},
+      {"name": "MN医疗",    "amount": 2000,  "agent": "张鹏",  "status": "停止"},
+      {"name": "徐宝龙",    "amount": 2000,  "agent": "张鹏",  "status": "停止"}
     ]
   },
   {
@@ -82,11 +96,13 @@
     "link": "https://client.myebc.co/signup?linkCode=F1736485-c01",
     "note": "",
     "clients": [
-      {"name": "苏亮",   "amount": 2000},
-      {"name": "雷熊",   "amount": 2000},
-      {"name": "王欢",   "amount": 2000},
-      {"name": "林锦豪", "amount": 4000},
-      {"name": "梁杰煌", "amount": 2000}
+      {"name": "苏亮",   "amount": 2000, "agent": "张鹏",  "status": "进行中"},
+      {"name": "雷熊",   "amount": 2000, "agent": "张鹏",  "status": "进行中"},
+      {"name": "王欢",   "amount": 2000, "agent": "曾涛",  "status": "进行中"},
+      {"name": "林锦豪", "amount": 4000, "agent": "张鹏",  "status": "进行中"},
+      {"name": "梁杰煌", "amount": 2000, "agent": "张鹏",  "status": "进行中"},
+      {"name": "李维",   "amount": 2000, "agent": "刘佳轩","status": "进行中"},
+      {"name": "bibiubiu","amount": 2000,"agent": "张鹏",  "status": "停止"}
     ]
   }
 ]
