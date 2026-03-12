@@ -1,0 +1,92 @@
+[
+  {
+    "platform": "星迈",
+    "account_type": "ECN账户",
+    "link": "https://www.startraderapac.com/scn/live-account/?affid=MTcwOTg2MzA=&ibpRebateCode=MTcwOTg2MzBTVDEwMDAx",
+    "note": "",
+    "clients": [
+      {"name": "范宇轩", "amount": 2000},
+      {"name": "王泽远", "amount": 2000},
+      {"name": "谢远然", "amount": 2000},
+      {"name": "雷蒙",   "amount": 4000},
+      {"name": "聂平华", "amount": 6000},
+      {"name": "华哥(xiong yong)", "amount": 10000},
+      {"name": "孙成(chenyingying)", "amount": 2000},
+      {"name": "陈泽林", "amount": 2000},
+      {"name": "张金虎", "amount": 2000},
+      {"name": "杨静",   "amount": 2000},
+      {"name": "杨浩",   "amount": 2000}
+    ]
+  },
+  {
+    "platform": "星迈",
+    "account_type": "USC账户",
+    "link": "https://www.startraderapac.com/scn/live-account/?affid=MTcwOTg2MzA=&ibpRebateCode=MTcwOTg2MzBTVDEwMDE1",
+    "note": "仅用于mt5",
+    "clients": []
+  },
+  {
+    "platform": "DLSM",
+    "account_type": "美分账户",
+    "link": "https://portal.dlsmsolutions.com/register?node=NzgyMw==&language=zh-Hans",
+    "note": "仅可交易货币对 原油 指数，点差26",
+    "clients": []
+  },
+  {
+    "platform": "DLSM",
+    "account_type": "美金RAW账户",
+    "link": "https://portal.dlsmsolutions.com/register?node=NzgyNg==&language=zh-Hans",
+    "note": "返佣2，点差最小0.8",
+    "clients": []
+  },
+  {
+    "platform": "DLSM",
+    "account_type": "美金SP账户",
+    "link": "https://portal.dlsmsolutions.com/register?node=NzgyNQ==&language=zh-Hans",
+    "note": "返佣22，点差最大33",
+    "clients": []
+  },
+  {
+    "platform": "DLSM",
+    "account_type": "美金Prem账户",
+    "link": "https://portal.dlsmsolutions.com/register?node=NzgyNA==&language=zh-Hans",
+    "note": "返佣10，点差21",
+    "clients": []
+  },
+  {
+    "platform": "DLSM",
+    "account_type": "美金STD账户",
+    "link": "https://portal.dlsmsolutions.com/register?node=NzgyNw==&language=zh-Hans",
+    "note": "返佣15，点差26",
+    "clients": []
+  },
+  {
+    "platform": "LMAX",
+    "account_type": "开户链接",
+    "link": "https://mu.mt4-client.lmax.com/live_signup/?brd=2&sidc=83E55BAD-B612-42F5-85F0-5E0F383BA370",
+    "note": "",
+    "clients": []
+  },
+  {
+    "platform": "TMGM",
+    "account_type": "ECN账户",
+    "link": "https://portal.tmgrowinv.com/register?node=MTQ3OTEz&language=zh-Hans",
+    "note": "",
+    "clients": [
+      {"name": "焦伟林", "amount": 10000}
+    ]
+  },
+  {
+    "platform": "EBC",
+    "account_type": "ECN账户",
+    "link": "https://client.myebc.co/signup?linkCode=F1736485-c01",
+    "note": "",
+    "clients": [
+      {"name": "苏亮",   "amount": 2000},
+      {"name": "雷熊",   "amount": 2000},
+      {"name": "王欢",   "amount": 2000},
+      {"name": "林锦豪", "amount": 4000},
+      {"name": "梁杰煌", "amount": 2000}
+    ]
+  }
+]

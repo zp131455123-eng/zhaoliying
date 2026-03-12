@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>各平台客户资金总览</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Microsoft YaHei', Arial, sans-serif; background: #f0f4f9; color: #222; }
+  .header {
+    background: linear-gradient(135deg, #1a3a5c, #2e6da4);
+    color: #fff; padding: 28px 40px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .header h1 { font-size: 24px; letter-spacing: 2px; }
+  .header .date { font-size: 13px; opacity: 0.8; }
+  .summary-bar {
+    display: flex; gap: 20px; padding: 20px 40px;
+    background: #fff; border-bottom: 1px solid #dde4ee; flex-wrap: wrap;
+  }
+  .sum-card {
+    background: #f0f4f9; border-left: 4px solid #2e6da4;
+    padding: 10px 20px; border-radius: 4px; min-width: 150px;
+  }
+  .sum-card.green { border-color: #27ae60; }
+  .sum-card.red   { border-color: #e74c3c; }
+  .sum-card.gold  { border-color: #f39c12; }
+  .sum-card .label { font-size: 12px; color: #666; margin-bottom: 4px; }
+  .sum-card .value { font-size: 22px; font-weight: bold; color: #1a3a5c; }
+  .sum-card.green .value { color: #27ae60; }
+  .sum-card.red   .value { color: #e74c3c; }
+  .sum-card.gold  .value { color: #f39c12; }
+  .container { padding: 30px 40px; }
+  .section { margin-bottom: 36px; }
+  .section-title {
+    font-size: 16px; font-weight: bold; color: #1a3a5c;
+    padding: 10px 16px; background: #dde8f5;
+    border-left: 5px solid #2e6da4; border-radius: 0 4px 4px 0;
+    margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .section-title span { font-size: 13px; color: #555; font-weight: normal; }
+  .section-title.stopped { background: #fde8e8; border-color: #e74c3c; color: #c0392b; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead tr { background: #2e6da4; color: #fff; }
+  thead tr.red-head { background: #c0392b; }
+  thead th { padding: 10px 14px; text-align: center; font-weight: bold; letter-spacing: 1px; }
+  tbody tr:nth-child(odd)  { background: #f7faff; }
+  tbody tr:nth-child(even) { background: #ffffff; }
+  tbody tr:hover { background: #e3edf8; }
+  td { padding: 9px 14px; border-bottom: 1px solid #e8edf5; }
+  td.center { text-align: center; }
+  td.right  { text-align: right; font-weight: 500; }
+  td.name   { font-weight: 500; }
+  .tag {
+    display: inline-block; padding: 2px 10px;
+    border-radius: 4px; font-size: 12px; font-weight: bold;
+  }
+  .tag-xingmai { background: #d6eaf8; color: #1a5276; }
+  .tag-tmgm    { background: #d5f5e3; color: #1e8449; }
+  .tag-ebc     { background: #fde8d8; color: #a04000; }
+  tfoot tr { background: #1a3a5c; color: #fff; }
+  tfoot tr.red-foot { background: #922b21; }
+  tfoot td { padding: 10px 14px; font-weight: bold; font-size: 14px; }
+  .filter-bar {
+    margin-bottom: 16px; display: flex; gap: 10px;
+    flex-wrap: wrap; align-items: center;
+  }
+  .filter-bar label { font-size: 13px; color: #555; }
+  .filter-bar button {
+    padding: 5px 16px; border: 1px solid #2e6da4; border-radius: 20px;
+    background: #fff; color: #2e6da4; cursor: pointer; font-size: 13px; transition: all 0.15s;
+  }
+  .filter-bar button:hover, .filter-bar button.active { background: #2e6da4; color: #fff; }
+  @media print { .filter-bar { display: none; } body { background: #fff; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 各平台客户资金总览</h1>
+  <div class="date">更新日期：2026-03-12</div>
+</div>
+
+<div class="summary-bar">
+  <div class="sum-card gold">
+    <div class="label">总资金量</div>
+    <div class="value">106,000 U</div>
+  </div>
+  <div class="sum-card green">
+    <div class="label">进行中</div>
+    <div class="value">74,000 U</div>
+  </div>
+  <div class="sum-card red">
+    <div class="label">已停止</div>
+    <div class="value">32,000 U</div>
+  </div>
+  <div class="sum-card">
+    <div class="label">星迈(DLSM)</div>
+    <div class="value" style="color:#1a5276">36,000 U</div>
+  </div>
+  <div class="sum-card">
+    <div class="label">EBC</div>
+    <div class="value" style="color:#a04000">12,000 U</div>
+  </div>
+  <div class="sum-card">
+    <div class="label">TMGM</div>
+    <div class="value" style="color:#1e8449">10,000 U</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="filter-bar">
+    <label>筛选：</label>
+    <button class="active" onclick="filterAll(this)">全部</button>
+    <button onclick="filterGroup('active', this)">🟢 进行中</button>
+    <button onclick="filterGroup('stopped', this)">🔴 已停止</button>
+    <button onclick="filterPlatform('xingmai', this)">星迈</button>
+    <button onclick="filterPlatform('ebc', this)">EBC</button>
+    <button onclick="filterPlatform('tmgm', this)">TMGM</button>
+  </div>
+
+  <!-- 进行中 -->
+  <div class="section" data-group="active">
+    <div class="section-title">
+      🟢 进行中客户
+      <span>共20人 · 74,000 U</span>
+    </div>
+    <table>
+      <thead><tr><th>序号</th><th>姓名</th><th>代理人</th><th>平台</th><th>资金 (U)</th></tr></thead>
+      <tbody>
+        <tr data-platform="xingmai"><td class="center">1</td><td class="name">范宇轩</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="ebc"><td class="center">2</td><td class="name">苏亮</td><td class="center">张鹏</td><td class="center"><span class="tag tag-ebc">EBC</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="ebc"><td class="center">3</td><td class="name">雷熊</td><td class="center">张鹏</td><td class="center"><span class="tag tag-ebc">EBC</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="ebc"><td class="center">4</td><td class="name">王欢</td><td class="center">曾涛</td><td class="center"><span class="tag tag-ebc">EBC</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="ebc"><td class="center">5</td><td class="name">林锦豪</td><td class="center">张鹏</td><td class="center"><span class="tag tag-ebc">EBC</span></td><td class="right">4,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">6</td><td class="name">王泽远</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="ebc"><td class="center">7</td><td class="name">梁杰煌</td><td class="center">张鹏</td><td class="center"><span class="tag tag-ebc">EBC</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="tmgm"><td class="center">8</td><td class="name">焦伟林</td><td class="center">张鹏</td><td class="center"><span class="tag tag-tmgm">TMGM</span></td><td class="right">10,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">9</td><td class="name">谢远然</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">10</td><td class="name">雷蒙</td><td class="center">公司</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">4,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">11</td><td class="name">聂平华</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">6,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">12</td><td class="name">华哥(xiong yong)</td><td class="center">公司</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">10,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">13</td><td class="name">孙成(chenyingying)</td><td class="center">刘涛</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">14</td><td class="name">陈泽林</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">15</td><td class="name">张金虎</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">16</td><td class="name">杨静</td><td class="center">刘涛</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="xingmai"><td class="center">17</td><td class="name">杨浩</td><td class="center">张鹏</td><td class="center"><span class="tag tag-xingmai">星迈</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="ebc"><td class="center">18</td><td class="name">李维</td><td class="center">刘佳轩</td><td class="center"><span class="tag tag-ebc">EBC</span></td><td class="right">2,000</td></tr>
+        <tr data-platform="tmgm"><td class="center">19</td><td class="name">刘学习</td><td class="center">刘佳轩</td><td class="center"><span class="tag tag-tmgm">TMGM</span></td><td class="right">10,000</td></tr>
+        <tr data-platform="tmgm"><td class="center">20</td><td class="name">刘学习推荐</td><td class="center">刘佳轩</td><td class="center"><span class="tag tag-tmgm">TMGM</span></td><td class="right">4,000</td></tr>
+      </tbody>
+      <tfoot><tr><td colspan="4" class="center">合计</td><td class="right">74,000</td></tr></tfoot>
+    </table>
+  </div>
+
+  <!-- 已停止 -->
+  <div class="section" data-group="stopped">
+    <div class="section-title stopped">
+      🔴 已停止客户
+      <span style="color:#888">共13人 · 32,000 U</span>
+    </div>
+    <table>
+      <thead><tr class="red-head"><th>序号</th><th>姓名</th><th>代理人</th><th>资金 (U)</th></tr></thead>
+      <tbody>
+        <tr><td class="center">1</td><td class="name">雷伟平</td><td class="center">刘涛</td><td class="right">2,000</td></tr>
+        <tr><td class="center">2</td><td class="name">朱睿</td><td class="center">刘涛</td><td class="right">2,000</td></tr>
+        <tr><td class="center">3</td><td class="name">徐敏</td><td class="center">曾涛</td><td class="right">2,000</td></tr>
+        <tr><td class="center">4</td><td class="name">孙明</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">5</td><td class="name">李超杰</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">6</td><td class="name">小叶</td><td class="center">公司</td><td class="right">8,000</td></tr>
+        <tr><td class="center">7</td><td class="name">万诺</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">8</td><td class="name">曾经，拥有</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">9</td><td class="name">张凯嘉</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">10</td><td class="name">MN医疗</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">11</td><td class="name">bibiubiu</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+        <tr><td class="center">12</td><td class="name">罗琴</td><td class="center">刘涛</td><td class="right">2,000</td></tr>
+        <tr><td class="center">13</td><td class="name">徐宝龙</td><td class="center">张鹏</td><td class="right">2,000</td></tr>
+      </tbody>
+      <tfoot><tr class="red-foot"><td colspan="3" class="center">合计</td><td class="right">32,000</td></tr></tfoot>
+    </table>
+  </div>
+  <!-- 代理人统计 -->
+  <div class="section">
+    <div class="section-title" style="background:#e8f5e9; border-color:#27ae60; color:#1e8449;">
+      👤 代理人统计
+      <span style="color:#555">进行中 + 已停止</span>
+    </div>
+    <table>
+      <thead><tr style="background:#27ae60">
+        <th>代理人</th><th>总客户数</th><th>进行中客户</th><th>进行中资金 (U)</th><th>已停止客户</th><th>停止资金 (U)</th><th>合计资金 (U)</th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="name center">张鹏</td><td class="center">20</td><td class="center">12</td><td class="right">38,000</td><td class="center">8</td><td class="right">16,000</td><td class="right"><b>54,000</b></td></tr>
+        <tr><td class="name center">公司</td><td class="center">3</td><td class="center">2</td><td class="right">14,000</td><td class="center">1</td><td class="right">8,000</td><td class="right"><b>22,000</b></td></tr>
+        <tr><td class="name center">刘佳轩</td><td class="center">3</td><td class="center">3</td><td class="right">16,000</td><td class="center">0</td><td class="right">0</td><td class="right"><b>16,000</b></td></tr>
+        <tr><td class="name center">刘涛</td><td class="center">5</td><td class="center">2</td><td class="right">4,000</td><td class="center">3</td><td class="right">6,000</td><td class="right"><b>10,000</b></td></tr>
+        <tr><td class="name center">曾涛</td><td class="center">2</td><td class="center">1</td><td class="right">2,000</td><td class="center">1</td><td class="right">2,000</td><td class="right"><b>4,000</b></td></tr>
+      </tbody>
+      <tfoot><tr style="background:#1e8449; color:#fff">
+        <td class="center">合计</td><td class="center">33</td><td class="center">20</td><td class="right">74,000</td><td class="center">13</td><td class="right">32,000</td><td class="right"><b>106,000</b></td>
+      </tr></tfoot>
+    </table>
+  </div>
+
+</div>
+
+<script>
+function filterAll(btn) {
+  document.querySelectorAll('.section').forEach(s => s.style.display = '');
+  document.querySelectorAll('tbody tr').forEach(r => r.style.display = '');
+  setActive(btn);
+}
+function filterGroup(group, btn) {
+  document.querySelectorAll('.section').forEach(s => {
+    s.style.display = s.dataset.group === group ? '' : 'none';
+  });
+  document.querySelectorAll('tbody tr').forEach(r => r.style.display = '');
+  setActive(btn);
+}
+function filterPlatform(platform, btn) {
+  document.querySelectorAll('.section').forEach(s => s.style.display = '');
+  document.querySelectorAll('tbody tr').forEach(r => {
+    r.style.display = r.dataset.platform === platform ? '' : 'none';
+  });
+  setActive(btn);
+}
+function setActive(btn) {
+  document.querySelectorAll('.filter-bar button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
