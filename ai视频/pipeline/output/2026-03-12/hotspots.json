@@ -1,6 +1,6 @@
 {
   "date": "2026-03-12",
-  "count": 76,
+  "count": 65,
   "items": [
     {
       "source": "抖音",
@@ -94,169 +94,81 @@
     },
     {
       "source": "HackerNews",
-      "title": "Show HN: s@: decentralized social networking over static sites",
-      "desc": "http://satproto.org/",
-      "hot": 366,
-      "comments": 164,
-      "url": "http://satproto.org/"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Big Data on the Cheapest MacBook",
-      "desc": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook",
-      "hot": 192,
-      "comments": 161,
-      "url": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Dolphin Progress Release 2603",
-      "desc": "https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/",
-      "hot": 168,
-      "comments": 18,
-      "url": "https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/"
-    },
-    {
-      "source": "HackerNews",
-      "title": "3D-Knitting: The Ultimate Guide",
-      "desc": "https://www.oliver-charles.com/pages/3d-knitting",
-      "hot": 158,
-      "comments": 57,
-      "url": "https://www.oliver-charles.com/pages/3d-knitting"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Avoiding Trigonometry (2013)",
-      "desc": "https://iquilezles.org/articles/noacos/",
-      "hot": 131,
-      "comments": 29,
-      "url": "https://iquilezles.org/articles/noacos/"
-    },
-    {
-      "source": "HackerNews",
       "title": "US banks' exposure to private credit hits $300B (2025)",
       "desc": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/",
       "hot": 86,
-      "comments": 49,
+      "comments": 50,
       "url": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
-      "desc": "https://github.com/obsessiondb/rudel",
-      "hot": 56,
-      "comments": 33,
-      "url": "https://github.com/obsessiondb/rudel"
     },
     {
       "source": "HackerNews",
       "title": "Suburban school district uses license plate readers to verify student residency",
       "desc": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/",
-      "hot": 54,
-      "comments": 33,
+      "hot": 57,
+      "comments": 35,
       "url": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/"
     },
     {
-      "source": "HackerNews",
-      "title": "Malus – Clean Room as a Service",
-      "desc": "https://malus.sh",
-      "hot": 47,
-      "comments": 17,
-      "url": "https://malus.sh"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
-      "desc": "https://github.com/jrswab/axe",
-      "hot": 30,
-      "comments": 20,
-      "url": "https://github.com/jrswab/axe"
-    },
-    {
-      "source": "HackerNews",
-      "title": "The purpose of Continuous Integration is to fail",
-      "desc": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail",
-      "hot": 19,
-      "comments": 22,
-      "url": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
-      "desc": "https://github.com/yuuichieguchi/Calyx",
-      "hot": 15,
-      "comments": 20,
-      "url": "https://github.com/yuuichieguchi/Calyx"
-    },
-    {
-      "source": "HackerNews",
-      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
-      "desc": "https://codespeak.dev/",
-      "hot": 11,
-      "comments": 7,
-      "url": "https://codespeak.dev/"
-    },
-    {
-      "source": "HackerNews",
-      "title": "ATMs didn't kill bank Teller jobs, but the iPhone did",
-      "desc": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
-      "hot": 10,
-      "comments": 3,
-      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller"
-    },
-    {
       "source": "YouTube/搜索",
-      "title": "【2025年11月熱歌榜】2025流行歌曲 🔥2025不能不聽的100首歌 2025年11月抖音熱門歌曲合集🔥 七月抖音最夯中文神曲推薦🔥Tiny7 - 零距离的思念 王赫野喻言《别让爱凋落》",
+      "title": "2025流行歌曲 [ Douyin 抖音歌曲2025 ]💥 40首超好聽的流行歌曲 💋楊天一 - 沒能成為你的白馬, 承桓 - 我會等, 向思思 - 總會有人, 張齊山ZQS - 這是你期盼的長大嗎",
       "desc": "",
       "hot": 10,
-      "url": "https://youtube.com/watch?v=aOBH8W6oWGQ"
-    },
-    {
-      "source": "YouTube/搜索",
-      "title": "近期热门歌曲，一小时纯享版，#戴上耳机 #热门歌曲 #音乐分享 #榜单热歌",
-      "desc": "",
-      "hot": 2,
       "url": "https://youtube.com/watch?v=Q8HIEVVFHx8"
     },
     {
-      "source": "CoinGecko",
-      "title": "比特币(BTC) 📉 $69,711 (24h: -1.3%)",
-      "desc": "当前价格 $69,711.00，24小时变动 -1.29%",
-      "hot": 1.2917310179195298,
-      "price": 69711,
-      "change_24h": -1.29
+      "source": "YouTube/搜索",
+      "title": "二月熱舞TOP｜哪咤打油詩 / 肯恰那 / 火力全開",
+      "desc": "",
+      "hot": 2,
+      "url": "https://youtube.com/watch?v=aOBH8W6oWGQ"
     },
     {
       "source": "CoinGecko",
-      "title": "以太坊(ETH) 📉 $2,050 (24h: -0.3%)",
-      "desc": "当前价格 $2,049.85，24小时变动 -0.34%",
-      "hot": 0.337833881070758,
-      "price": 2049.85,
-      "change_24h": -0.34
+      "title": "比特币(BTC) 📉 $69,742 (24h: -0.8%)",
+      "desc": "当前价格 $69,742.00，24小时变动 -0.80%",
+      "hot": 0.8001942977736894,
+      "price": 69742,
+      "change_24h": -0.8
     },
     {
       "source": "CoinGecko",
-      "title": "Solana(SOL) 📉 $86 (24h: -1.2%)",
-      "desc": "当前价格 $85.59，24小时变动 -1.23%",
-      "hot": 1.2272938073779251,
-      "price": 85.59,
-      "change_24h": -1.23
+      "title": "以太坊(ETH) 📉 $2,050 (24h: -0.1%)",
+      "desc": "当前价格 $2,049.86，24小时变动 -0.09%",
+      "hot": 0.08909299894790636,
+      "price": 2049.86,
+      "change_24h": -0.09
     },
     {
       "source": "CoinGecko",
-      "title": "BNB 📉 $648 (24h: -0.2%)",
-      "desc": "当前价格 $647.81，24小时变动 -0.17%",
-      "hot": 0.17395571542456797,
-      "price": 647.81,
-      "change_24h": -0.17
+      "title": "Solana(SOL) 📉 $86 (24h: -0.7%)",
+      "desc": "当前价格 $85.60，24小时变动 -0.66%",
+      "hot": 0.6627200109612694,
+      "price": 85.6,
+      "change_24h": -0.66
     },
     {
       "source": "CoinGecko",
-      "title": "瑞波币(XRP) 📉 $1 (24h: -1.5%)",
-      "desc": "当前价格 $1.37，24小时变动 -1.48%",
-      "hot": 1.4795864713627498,
+      "title": "BNB 📈 $648 (24h: +0.0%)",
+      "desc": "当前价格 $647.88，24小时变动 +0.00%",
+      "hot": 0.0008172942833047143,
+      "price": 647.88,
+      "change_24h": 0.0
+    },
+    {
+      "source": "CoinGecko",
+      "title": "瑞波币(XRP) 📉 $1 (24h: -1.2%)",
+      "desc": "当前价格 $1.37，24小时变动 -1.20%",
+      "hot": 1.1983528747005323,
       "price": 1.37,
-      "change_24h": -1.48
+      "change_24h": -1.2
+    },
+    {
+      "source": "GoldPrice",
+      "title": "黄金 📉 $5,138.2/oz (24h: -0.87%)",
+      "desc": "黄金现货价格参考 $5,138.24/盎司",
+      "hot": 0.8736491265069547,
+      "price": 5138.24,
+      "change_24h": -0.87
     },
     {
       "source": "CoinDesk",

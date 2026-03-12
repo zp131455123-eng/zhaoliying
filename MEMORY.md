@@ -1,5 +1,5 @@
 # MEMORY.md - 索引（轻量版）
-*最后更新: 2026-03-11 | 保持 ≤80行*
+*最后更新: 2026-03-13 | 保持 ≤80行*
 
 ---
 
@@ -16,14 +16,16 @@
 
 | 主题 | 详情位置 |
 |------|---------|
-| 项目状态 / EA系统 / AI视频 | `memory/projects.md` |
+| 项目状态 / EA系统 / AI视频 / 卡户系统 | `memory/projects.md` |
 | 网络配置 / Clash / 代理 | `TOOLS.md` + `memory/network-config.md` |
-| 踩坑教训 | `memory/lessons.md` |
-| 工具详参 | `memory/tools-notes.md` |
+| 踩坑教训 / 决策记录 | `memory/lessons.md` |
 | 能力进化 | `memory/evolution.md` |
 | 每日日志 | `memory/logs/YYYY-MM-DD.md` |
 | EA策略系统文档 | `ea策略/README.md` |
 | 记忆系统架构 | `OpenClaw记忆系统架构.md` |
+| 各平台卡户链接 | `各平台卡户链接/links.json` |
+| AI视频流水线 | `ai视频/pipeline/` |
+| 语音识别ASR | `memory/scripts/asr.py` |
 
 ---
 
@@ -34,13 +36,16 @@
 4. **🌐 网络配置必须确认** — 任何 Clash/代理/系统网络修改，先说明后确认再动
 5. **trash > rm** — 能用回收站就不用 rm
 6. **数据验证** — 修改 EA 数据后必须跑 validate.py，不乱填缺失字段
+7. **文件默认放工作空间** — 所有文件创建在智能体目录内，除非老板指定
 
 ---
 
 ## 当前活跃
-- EA策略系统 ✅ 运行中（随时可查询/更新）
+- EA策略系统 ✅ 运行中
 - GitHub 自动同步 ✅ 每天凌晨2点
-- AI视频工作流 🔲 待规划
+- AI视频流水线 🔄 进行中（step1/2完成，step3待定）
+- 各平台卡户链接系统 ✅ 完成
+- 语音识别ASR ✅ 已配置
 
 ---
 

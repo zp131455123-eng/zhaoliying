@@ -91,4 +91,36 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## 工具调用参考
+
+### Memory Search（记忆搜索）
+- 使用场景：老板问"之前说的xxx"、查历史决策、定位信息所在文件
+- 策略：先用 memory_search 定位，再用 memory_get 精确读取，避免全文读取大文件
+- minScore 建议：0.7
+
+### Web Search（Brave API）
+- 参数：count(1-10), country(US/CN/ALL), language(zh/en), freshness(day/week/month/year)
+- 注意：免费额度有限，优先用 memory_search 查已有信息
+
+### Sessions Spawn（子代理）
+- runtime: "subagent"，mode: "run"（一次性任务）
+- 场景：复杂代码开发、需要隔离环境的实验、长时间任务
+
+### 模型配置
+| 用途 | 模型 |
+|------|------|
+| 主模型 | claude-sonnet-4-5-20250929 |
+| 推理模式 | on (hidden) |
+
+### 环境变量（完整列表）
+| 变量名 | 用途 |
+|--------|------|
+| ANTHROPIC_API_KEY | Claude API 密钥 |
+| DASHSCOPE_API_KEY | 阿里云 DashScope（语音识别+Embedding）|
+| TELEGRAM_BOT_TOKEN | Telegram Bot Token |
+
+**注意**：密钥存在 `~/.openclaw/.env`，不写入任何配置文件明文！
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.

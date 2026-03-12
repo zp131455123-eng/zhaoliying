@@ -1,5 +1,5 @@
 # Projects - 项目状态
-*最后更新: 2026-03-11*
+*最后更新: 2026-03-13*
 
 ---
 
@@ -26,14 +26,35 @@
 - SSH Key：ed25519，已添加到 GitHub
 - 自动同步：任务计划 "ZhaoLiying GitSync"，凌晨2点
 
+### 各平台卡户链接管理系统 ✅
+- 文件位置：`各平台卡户链接/`
+- links.json：数据存储
+- links_manager.py：管理程序
+- export_word.py：Word导出
+- 各平台卡户链接.xlsx / .docx / 客户资金总览.html
+- 平台：星迈(ECN/USC) / DLSM / LMAX / TMGM / EBC
+- 进行中：58,000U，停止：32,000U，总计：90,000U
+
+### 语音识别ASR ✅
+- 文件位置：`memory/scripts/asr.py`
+- 阿里云DashScope paraformer-realtime-v2
+- 流程：Telegram ogg → ffmpeg转wav → paraformer识别 → 文本
+- 已配置到 OpenClaw tools.media.audio ✅
+
 ---
 
-## 🔲 待规划
+## 🔄 进行中
 
-### AI视频制作
-- 老板想用 AI 生成视频
-- 具体工具/工作流待确认（数字人/文转视频/全流程？）
-- 下次对话时继续
+### AI视频pipeline
+- 文件位置：`ai视频/pipeline/`
+- step1_hotspot.py：热点抓取
+  - 抖音 ✅ HackerNews ✅ YouTube ✅
+  - 微博/知乎/小红书 ❌（需cookie）
+- step2_script.py：文案生成（Claude API，结构化JSON，3选题/次）
+- run.py：主入口，串联两步
+- 待做：补cookie、Reddit OAuth、确定数字人方案（Step3）
+- 数字人方案：HeyGen/D-ID，TTS 用 DashScope CosyVoice
+- 已推送GitHub ✅
 
 ---
 

@@ -1,5 +1,28 @@
-# HEARTBEAT.md
+# HEARTBEAT.md - 定期检查任务
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 每次心跳检查（轮流执行，2-4次/天）
 
-# Add tasks below when you want the agent to check something periodically.
+### 检查1：日志断档检测
+- 读取 memory/logs/ 目录
+- 若今日日志不存在 → 创建空模板
+- 若昨日日志不存在且非第一天 → 提醒老板补写或我代写
+
+### 检查2：projects.md 新鲜度
+- 读取 memory/projects.md 的"最后更新"时间
+- 若超过3天未更新 → 检查工作空间是否有新文件/变更，主动更新
+
+### 检查3：MEMORY.md 行数
+- 统计 MEMORY.md 行数
+- 若超过80行 → 自动归档"最近学习"到当日日志，精简索引
+
+### 检查4：教训库更新
+- 检查最近3条日志是否有新踩坑
+- 若有未记录的教训 → 提炼后追加到 memory/lessons.md
+
+## 主动提醒条件
+- 重要邮件/消息（判断有无紧急事项）
+- 项目有重大进展需要记录
+- 距上次主动联系超过8小时（活跃时段 09:00-23:00）
+
+## 安静时段
+- 23:00 - 08:00 不主动打扰（除非紧急）
