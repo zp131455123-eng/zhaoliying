@@ -1,6 +1,6 @@
 {
   "date": "2026-03-12",
-  "count": 31,
+  "count": 76,
   "items": [
     {
       "source": "抖音",
@@ -96,23 +96,23 @@
       "source": "HackerNews",
       "title": "Show HN: s@: decentralized social networking over static sites",
       "desc": "http://satproto.org/",
-      "hot": 362,
-      "comments": 162,
+      "hot": 366,
+      "comments": 164,
       "url": "http://satproto.org/"
     },
     {
       "source": "HackerNews",
       "title": "Big Data on the Cheapest MacBook",
       "desc": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook",
-      "hot": 191,
-      "comments": 158,
+      "hot": 192,
+      "comments": 161,
       "url": "https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook"
     },
     {
       "source": "HackerNews",
       "title": "Dolphin Progress Release 2603",
       "desc": "https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/",
-      "hot": 166,
+      "hot": 168,
       "comments": 18,
       "url": "https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/"
     },
@@ -120,7 +120,7 @@
       "source": "HackerNews",
       "title": "3D-Knitting: The Ultimate Guide",
       "desc": "https://www.oliver-charles.com/pages/3d-knitting",
-      "hot": 157,
+      "hot": 158,
       "comments": 57,
       "url": "https://www.oliver-charles.com/pages/3d-knitting"
     },
@@ -128,63 +128,63 @@
       "source": "HackerNews",
       "title": "Avoiding Trigonometry (2013)",
       "desc": "https://iquilezles.org/articles/noacos/",
-      "hot": 129,
-      "comments": 28,
+      "hot": 131,
+      "comments": 29,
       "url": "https://iquilezles.org/articles/noacos/"
     },
     {
       "source": "HackerNews",
       "title": "US banks' exposure to private credit hits $300B (2025)",
       "desc": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/",
-      "hot": 85,
-      "comments": 44,
+      "hot": 86,
+      "comments": 49,
       "url": "https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work",
       "desc": "https://github.com/obsessiondb/rudel",
-      "hot": 53,
-      "comments": 29,
+      "hot": 56,
+      "comments": 33,
       "url": "https://github.com/obsessiondb/rudel"
     },
     {
       "source": "HackerNews",
       "title": "Suburban school district uses license plate readers to verify student residency",
       "desc": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/",
-      "hot": 42,
-      "comments": 18,
+      "hot": 54,
+      "comments": 33,
       "url": "https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/"
     },
     {
       "source": "HackerNews",
       "title": "Malus – Clean Room as a Service",
       "desc": "https://malus.sh",
-      "hot": 38,
-      "comments": 15,
+      "hot": 47,
+      "comments": 17,
       "url": "https://malus.sh"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
       "desc": "https://github.com/jrswab/axe",
-      "hot": 26,
-      "comments": 16,
+      "hot": 30,
+      "comments": 20,
       "url": "https://github.com/jrswab/axe"
     },
     {
       "source": "HackerNews",
       "title": "The purpose of Continuous Integration is to fail",
       "desc": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail",
-      "hot": 16,
-      "comments": 20,
+      "hot": 19,
+      "comments": 22,
       "url": "https://blog.nix-ci.com/post/2026-02-05_the-purpose-of-ci-is-to-fail"
     },
     {
       "source": "HackerNews",
       "title": "Show HN: Calyx – Ghostty-Based macOS Terminal with Liquid Glass UI",
       "desc": "https://github.com/yuuichieguchi/Calyx",
-      "hot": 14,
+      "hot": 15,
       "comments": 20,
       "url": "https://github.com/yuuichieguchi/Calyx"
     },
@@ -192,16 +192,16 @@
       "source": "HackerNews",
       "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
       "desc": "https://codespeak.dev/",
-      "hot": 7,
-      "comments": 6,
+      "hot": 11,
+      "comments": 7,
       "url": "https://codespeak.dev/"
     },
     {
       "source": "HackerNews",
       "title": "ATMs didn't kill bank Teller jobs, but the iPhone did",
       "desc": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
-      "hot": 4,
-      "comments": 0,
+      "hot": 10,
+      "comments": 3,
       "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller"
     },
     {
@@ -213,10 +213,330 @@
     },
     {
       "source": "YouTube/搜索",
-      "title": "四月熱舞TOP｜Shut Up And Dance / Chicken Banana / 虎牙搖",
+      "title": "近期热门歌曲，一小时纯享版，#戴上耳机 #热门歌曲 #音乐分享 #榜单热歌",
       "desc": "",
       "hot": 2,
-      "url": "https://youtube.com/watch?v=TDyPbb00-oM"
+      "url": "https://youtube.com/watch?v=Q8HIEVVFHx8"
+    },
+    {
+      "source": "CoinGecko",
+      "title": "比特币(BTC) 📉 $69,711 (24h: -1.3%)",
+      "desc": "当前价格 $69,711.00，24小时变动 -1.29%",
+      "hot": 1.2917310179195298,
+      "price": 69711,
+      "change_24h": -1.29
+    },
+    {
+      "source": "CoinGecko",
+      "title": "以太坊(ETH) 📉 $2,050 (24h: -0.3%)",
+      "desc": "当前价格 $2,049.85，24小时变动 -0.34%",
+      "hot": 0.337833881070758,
+      "price": 2049.85,
+      "change_24h": -0.34
+    },
+    {
+      "source": "CoinGecko",
+      "title": "Solana(SOL) 📉 $86 (24h: -1.2%)",
+      "desc": "当前价格 $85.59，24小时变动 -1.23%",
+      "hot": 1.2272938073779251,
+      "price": 85.59,
+      "change_24h": -1.23
+    },
+    {
+      "source": "CoinGecko",
+      "title": "BNB 📉 $648 (24h: -0.2%)",
+      "desc": "当前价格 $647.81，24小时变动 -0.17%",
+      "hot": 0.17395571542456797,
+      "price": 647.81,
+      "change_24h": -0.17
+    },
+    {
+      "source": "CoinGecko",
+      "title": "瑞波币(XRP) 📉 $1 (24h: -1.5%)",
+      "desc": "当前价格 $1.37，24小时变动 -1.48%",
+      "hot": 1.4795864713627498,
+      "price": 1.37,
+      "change_24h": -1.48
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Circle’s outperformance highlights USDC’s staying power, says bullish Wall Street analyst",
+      "desc": "William Blair said Circle’s recent rally reflects more than macro factors, pointing to USDC resilien",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/circle-s-outperformance-highlights-usdc-s-staying-power-says-bullish-wall-street-analyst"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Lido launches stablecoin yield product to expand beyond ether",
+      "desc": "The goal is to make it easier for users to earn returns on crypto without having to choose or manage",
+      "hot": 0,
+      "url": "https://www.coindesk.com/tech/2026/03/12/lido-launches-stablecoin-yield-product-to-expand-beyond-ether"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto for Advisors: Crypto accounting; comparing the US and Europe",
+      "desc": "Crypto assets defy traditional accounting rules, posing huge risks for auditors and fund managers. G",
+      "hot": 0,
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-for-advisors-crypto-accounting-comparing-the-us-and-europe"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Avalanche’s business chief says crypto must grow up and solve real problems",
+      "desc": "John Nahas argues blockchain’s next phase is custom infrastructure for companies, not one-size-fits-",
+      "hot": 0,
+      "url": "https://www.coindesk.com/coindesk-news/2026/03/12/avalanche-s-business-chiefsays-crypto-must-grow-up-and-solve-real-problems"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin selling intensifies across all wallet sizes despite price holding near $70,000",
+      "desc": "Glassnode’s Accumulation Trend Score drops to 0.04 as smaller wallet cohorts offload BTC while macro",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-selling-intensifies-across-all-wallet-sizes-despite-price-holding-near-usd70-000"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Eightco shares jump on $125 million funding commitment, investment in OpenAI, Beast Industries",
+      "desc": "Eightco holds a digital asset treasury that includes some 277 million WLD tokens and 11,000 ether.",
+      "hot": 0,
+      "url": "https://www.coindesk.com/business/2026/03/12/eightco-shares-jump-on-usd125-million-funding-commitment-investment-in-openai-beast-industries"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Tether invests in Ark Labs to make Bitcoin ready for stablecoins and payments",
+      "desc": "The issuer behind the USDT stablecoin joined a $5.2 million funding round for Ark Labs, backing soft",
+      "hot": 0,
+      "url": "https://www.coindesk.com/business/2026/03/12/tether-invests-in-ark-labs-to-make-bitcoin-ready-for-stablecoins-and-payments"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "CoinDesk 20 performance update: Polkadot (DOT) drops 2.3% as index trades lower",
+      "desc": "Aptos (APT), down 2.3% from Wednesday, was also among the underperformers.",
+      "hot": 0,
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/12/coindesk-20-performance-update-polkadot-dot-drops-2-3-as-index-trades-lower"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Crypto accounting firm Cryptio raises $45 million as institutional demand accelerates",
+      "desc": "The company's platform tracks digital assets, storage locations and crypto loans, enabling financial",
+      "hot": 0,
+      "url": "https://www.coindesk.com/business/2026/03/12/crypto-accounting-firm-cryptio-raises-usd45-million-in-series-b-funding-round"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "BlackRock debuts staked ether ETF as demand grows for yield in crypto funds",
+      "desc": "The BlackRock’s iShares Staked Ethereum Trust ETF (ETHB) lets investors earn staking rewards alongsi",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/blackrock-debuts-staked-ether-etf-as-demand-grows-for-yield-in-crypto-funds"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin futures trading is now five times bigger than spot on Binance",
+      "desc": "The futures-to-spot ratio has climbed to 5.1, reflecting a structural shift in how the market trades",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-futures-trading-is-now-five-times-bigger-than-spot-on-binance"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin looks resilient, but don't ignore those $20,000 puts",
+      "desc": "Your day-ahead look for March 12, 2026",
+      "hot": 0,
+      "url": "https://www.coindesk.com/daybook-us/2026/03/12/bitcoin-looks-resilient-but-don-t-ignore-those-usd20-000-puts"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Strategy’s STRC buys an estimated 7,000 bitcoin this week, but Two Prime CEO warns ‘no free lunch’",
+      "desc": "Two Prime CEO Alexander Blume says the high yield product driving the buying surge carries risks des",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/strategy-s-strc-buys-an-estimated-7-000-bitcoin-this-week-but-two-prime-ceo-warns-no-free-lunch"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin climbs the wall of worry amid escalating Iran war and stock market losses",
+      "desc": "BTC holds near $70,000 and outperforms major assets during Middle East tensions, even as derivatives",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-climbs-the-wall-of-worry-amid-escalating-iran-war-and-stock-market-losses"
+    },
+    {
+      "source": "CoinDesk",
+      "title": "Bitcoin steady near $70,000 as rising open interest hints at cautious, bearish positioning",
+      "desc": "Bitcoin traded around $69,800 as open interest rose to $102 billion, suggesting defensive, bearish b",
+      "hot": 0,
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-steady-near-usd70-000-as-rising-open-interest-hints-at-cautious-bearish-positioning"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin catching up to gold hints at an ‘opportunity within risk’",
+      "desc": "Bitcoin showed early signs of overtaking gold in the market as new data outlined an opportunity base",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/bitcoin-catching-up-to-gold-hints-opportunity-within-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Here’s what happened in crypto today",
+      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impac",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Ark Invest sees one-third of Bitcoin supply at risk from quantum threat",
+      "desc": "Ark and Unchained say about one-third of the Bitcoin supply remains exposed to future quantum threat",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/ark-bitcoin-quantum-risk-supply-bip-360?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Crypto ATM losses surge 33% in 2025 as AI superpowers scams: CertiK",
+      "desc": "Crypto ATMs or kiosks are the “lowest-friction extraction channel available to scammers,” said cyber",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/crypto-atm-losses-fraud-surge-333m-2025-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Not Your Keys, Not Your Coins: What True Self-Custody Actually Requires",
+      "desc": "New research examines how investor behavior, wallet architectures, and operational security practice",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/not-your-keys-not-your-coins-what-true-self-custody-actually-requires?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin hugs $70K range as March Fed rate cut odds fall below 1%",
+      "desc": "Bitcoin reacted in kind to calm US macro data, while oil stayed volatile amid uncertainty over the d",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/bitcoin-hugs-70k-range-march-fed-rate-cut-odds-fall?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "FATF warns offshore crypto firms create money laundering and sanctions gaps",
+      "desc": "A new FATF report says crypto exchanges operating offshore can create gaps in AML enforcement, makin",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/fatf-warns-offshore-crypto-platforms-illicit-finance-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "BlackRock launches staked Ethereum ETF offering ETH exposure and yield",
+      "desc": "BlackRock’s iShares Staked Ethereum Trust ETF will trade on the Nasdaq, offering spot exposure and s",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/blackrock-ishares-staked-ethereum-trust-etf-exposure-yield?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Binance says US midterms could boost Bitcoin and stocks",
+      "desc": "Binance Research says US midterms could set up a rebound for Bitcoin and stocks, though oil shocks a",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/us-midterm-elections-crypto-stock-recovery-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Perp DEXs become the latest battleground for blockchains",
+      "desc": "Chains are launching perp DEXs to capture trading activity, but history suggests liquidity will cons",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/perp-dexs-become-the-latest-battleground-for-blockchains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Why Ray Dalio says Bitcoin can’t replace gold",
+      "desc": "Ray Dalio argues Bitcoin cannot replace gold as a store of value, citing central bank demand, market",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/why-ray-dalio-says-bitcoin-can-t-replace-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Stablecoins are becoming crypto’s largest wasted resource",
+      "desc": "Stablecoins move trillions each year but mostly sit unused, leaving a widespread inefficiency across",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/stablecoins-crypto-resource?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "South Korea plans to use AI for crypto tax enforcement",
+      "desc": "The National Tax Service has opened a procurement bid for a platform to analyze crypto trading data ",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/south-korea-tax-agency-ai-system-track-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Chinese fraud victims challenge UK redress plan for 61,000 seized Bitcoin: FT",
+      "desc": "Chinese investors defrauded in the Zhimin Qian case are asking the UK High Court to reject a redress",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/victims-challenge-uk-plan-for-billions-in-bitcoin-seized-in-chinese-fraud-case-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "CoinTelegraph",
+      "title": "Bitcoin buyers ‘in control’ but trend won't change until this level breaks",
+      "desc": "Bitcoin analysts said buyers were regaining control, but reclaiming $78,000 as support was key to re",
+      "hot": 0,
+      "url": "https://cointelegraph.com/news/bitcoin-buyers-in-control-trend-wont-change-until-this-level-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "source": "FT财经",
+      "title": "Mojtaba Khamenei calls for Strait of Hormuz to ‘remain closed’",
+      "desc": "Iranian supreme leader’s written statement is first public comment since succeeding his father",
+      "hot": 0,
+      "url": "https://www.ft.com/content/87a06d69-7cb2-4aaf-82ff-da0bf8be43d4"
+    },
+    {
+      "source": "FT财经",
+      "title": "Iran war causing ‘largest disruption in history’ to oil supplies, says IEA",
+      "desc": "Global crude output will fall to lowest level in four years, energy agency warns in report",
+      "hot": 0,
+      "url": "https://www.ft.com/content/32726bce-ec4e-4251-8f33-10c15806fbc6"
+    },
+    {
+      "source": "FT财经",
+      "title": "‘Sitting ducks’: Oil tankers trapped in Gulf as Iran widens attacks on shipping",
+      "desc": "Tanker operators face growing risks whether they stay or flee through Strait of Hormuz",
+      "hot": 0,
+      "url": "https://www.ft.com/content/f45188dd-57d4-4d5d-90e0-59190543b1ae"
+    },
+    {
+      "source": "FT财经",
+      "title": "Military briefing: the closest US-Israel war yet",
+      "desc": "Not since the Suez Crisis has the IDF fought alongside an ally in a major military offensive",
+      "hot": 0,
+      "url": "https://www.ft.com/content/8d0105cf-e7af-47d5-8757-8447d1986010"
+    },
+    {
+      "source": "FT财经",
+      "title": "Which chokepoint wins in a game of geoeconomic Top Trumps?",
+      "desc": "It depends on its damage to the target, potential for blowback and durability",
+      "hot": 0,
+      "url": "https://www.ft.com/content/b9f1b5ed-3bd4-4e03-9f11-a9681127befc"
+    },
+    {
+      "source": "FT财经",
+      "title": "The Iran war’s shadow front: Iraq",
+      "desc": "Iraq has long been a battleground for Tehran and Washington’s interests. Now a murky conflict has br",
+      "hot": 0,
+      "url": "https://www.ft.com/content/d848b651-a010-4cfe-9ef7-5bb63d3be73d"
+    },
+    {
+      "source": "FT财经",
+      "title": "McKinsey rushes to fix AI system after hacker exposes flaws",
+      "desc": "Consultancy says it has found ‘no evidence’ that confidential client information was compromised",
+      "hot": 0,
+      "url": "https://www.ft.com/content/004e785e-8e17-4cb3-8e5a-3c36190bc8b2"
+    },
+    {
+      "source": "FT财经",
+      "title": "Partners Group sounds alarm on private credit default rates",
+      "desc": "Chair of Swiss private capital group warns pace could double to above 5% in coming years",
+      "hot": 0,
+      "url": "https://www.ft.com/content/7ebf581b-3a29-4dda-967c-2abe5a1cd53e"
+    },
+    {
+      "source": "FT财经",
+      "title": "Estée Lauder sues perfumer Jo Malone for breach of contract",
+      "desc": "US company objects to use of British entrepreneur’s name in her collaboration with Zara",
+      "hot": 0,
+      "url": "https://www.ft.com/content/e98cd166-210a-4bef-8dc2-983bab2b2b30"
+    },
+    {
+      "source": "FT财经",
+      "title": "Deutsche Bank seeks to expand private credit offerings",
+      "desc": "German lender says it applies ‘conservative underwriting standards’ in €26bn portfolio as concerns m",
+      "hot": 0,
+      "url": "https://www.ft.com/content/557427ad-9346-42ef-8fe1-d5a61e0c0701"
     }
   ]
 }

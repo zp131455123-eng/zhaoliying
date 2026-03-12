@@ -15,6 +15,7 @@ import sys as _sys
 _sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources"))
 from hackernews import fetch_hackernews
 from youtube import fetch_youtube_trending
+from finance import fetch_all_finance
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36",
@@ -146,6 +147,8 @@ def main():
     all_items += fetch_zhihu()
     all_items += fetch_hackernews(limit=15)
     all_items += fetch_youtube_trending()
+    print("\n--- 金融/加密/黄金 ---")
+    all_items += fetch_all_finance()
 
     filtered = filter_hotspots(all_items)
     print(f"\n✅ 过滤后共 {len(filtered)} 条热点")
