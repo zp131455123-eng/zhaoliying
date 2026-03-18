@@ -91,6 +91,26 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## 浏览器配置
+
+### browser 工具
+| Profile | 状态 | 说明 |
+|---------|------|------|
+| openclaw | ✅ 可用 | OpenClaw 自己的浏览器实例（默认） |
+| user | ⚠️ 需配置 | 需要 Chrome 带 `--remote-debugging-port=9222` 启动 |
+
+**user profile 连接方法**：
+1. 完全关掉所有 Chrome 窗口
+2. 用修改过快捷方式启动：`"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default`
+3. 或手动在快捷方式属性末尾加：`--remote-debugging-port=9222`
+
+**常用命令**：
+- `browser(action=status)` - 查看状态
+- `browser(action=open, url="...", profile="openclaw")` - 打开网页
+- `browser(action=snapshot)` - 获取页面快照
+
+---
+
 ## 工具调用参考
 
 ### Memory Search（记忆搜索）
