@@ -58,10 +58,10 @@ if __name__ == "__main__":
     
     # 输出结果
     if "error" in result:
-        print(f"错误: {result['error']}")
+        print(f"[Error] {result['error']}")
     else:
-        print(f"🔍 搜索: {result['query']}")
-        print(f"📊 找到 {result['count']} 条结果:\n")
+        print(f"Search: {result['query']}")
+        print(f"Found {result['count']} results:\n")
         for i, r in enumerate(result["results"], 1):
             print(f"{i}. {r['title']}")
             print(f"   {r['url']}")
